@@ -1,2 +1,8 @@
-fastapi>=0.115,<1.0
-uvicorn[standard]>=0.30,<1.0
+fastapi>=0.115,<1.0 #FastAPI framework for building APIs with Python 3.7+ based on standard Python type hints
+uvicorn[standard]>=0.30,<1.0 #ASGI server for running FastAPI applications
+#--------------------------------------------
+#pydantic-settings
+pydantic-settings>=2,<3  #validate application configurations
+pytest>=8,<10  #for running automated python tests
+httpx>=0.27,<1 #provides http testing capabilities for FastAPI applications
+httpx2
