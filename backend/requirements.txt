@@ -5,3 +5,4 @@ uvicorn[standard]>=0.30,<1.0 #ASGI server for running FastAPI applications
 pydantic-settings>=2,<3  #validate application configurations
 pytest>=8,<10  #for running automated python tests
 httpx>=0.27,<1 #provides http testing capabilities for FastAPI applications
+httpx2>=2,<3 #new version of httpx
